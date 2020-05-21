@@ -26,3 +26,4 @@ git pull
 git commit -m "added git ignore"
 git push
 git branch -a //to list all the branches available in master branch
+git init
