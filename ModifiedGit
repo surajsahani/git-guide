@@ -1,0 +1,28 @@
+git init
+git status
+git add helloworld.py | git add .
+git status
+git commit -m "initial commit
+git log
+git add forloop.py 
+git rm --cached forloop.py 
+git branch dev
+git checkout dev
+git commit -am "dev branch change 1"
+git checkout master
+git checkout dev
+git checkout master
+git merge dev
+git remote add origin https://github.com/surajsahani/git-guide.git
+git remote -v
+git push -u origin master
+git checkout dev
+git push
+git commit -am "new changes in dev"
+git push origin dev
+git pull
+git checkout master
+git pull
+git commit -m "added git ignore"
+git push
+git branch -a //to list all the branches available in master branch

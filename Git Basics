@@ -1,0 +1,44 @@
+git init
+git status
+git add helloworld.py 
+git status
+git commit -m "initial commit
+git status
+git add forloop.py
+git commit -m "understanded"
+git log
+git status
+git add forloop.py 
+git status
+git rm --cached forloop.py 
+git status
+git add forloop.py 
+git commit -m "updated for_loops with new algo"
+1601  clear
+git branch dev
+git checkout dev
+git status
+git commit -am "dev branch change 1
+git commit -am "dev branch change 1"
+git checkout master
+git checkout dv
+git checkout dev
+git checkout master
+git merge dev
+git status
+git remote add origin https://github.com/surajsahani/git-guide.git
+git remote -v
+git push -u origin master
+git checkout dev
+git push
+git commit -am new changes in dev"
+git commit -am "new changes in dev"
+git push origin dev
+git pull
+git checkout master
+git pull
+git status
+git add .
+git commit -m "added git ignore"
+git push
+
